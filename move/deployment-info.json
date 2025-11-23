@@ -1,0 +1,6 @@
+{
+  "network": "devnet",
+  "packageId": "0xb1b10ab8eef78c76deb88b8d220f6cb4ece91dce48df8d17ef5cdff8083d07a2",
+  "deployedAt": "2025-11-23T00:18:09Z",
+  "module": "vaultguard::inheritance_vault"
+}

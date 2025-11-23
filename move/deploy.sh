@@ -41,7 +41,7 @@ esac
 
 echo ""
 echo "📦 Building Move package..."
-cd move/vaultguard
+cd vaultguard
 sui move build
 
 if [ $? -ne 0 ]; then
@@ -74,7 +74,7 @@ echo ""
 echo "💾 Saving deployment info..."
 
 # Save deployment info
-cat > ../../deployment-info.json << EOF
+cat > ../deployment-info.json << EOF
 {
   "network": "$NETWORK",
   "packageId": "$PACKAGE_ID",
